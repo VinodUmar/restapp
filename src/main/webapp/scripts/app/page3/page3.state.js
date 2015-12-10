@@ -3,14 +3,14 @@
 angular.module('restappApp')
     .config(function ($stateProvider) {
         $stateProvider
-            .state('menu', {
+            .state('page3', {
                 parent: 'site',
-                url: '/menu',
+                url: '/page3',
                 data: {},
                 views: {
                     'content@': {
-                        templateUrl: 'scripts/app/menu/menu.html',
-                        controller: 'MenuController'
+                        templateUrl: 'scripts/app/page3/page3.html',
+                        controller: 'Page3Controller'
                     }
                 },
                 resolve: {
